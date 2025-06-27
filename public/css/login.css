@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+/* public/css/login.css */
+body {
+    background-color: #C2C2C2;
+    font-family: "Roboto", sans-serif;
+    color: #fff;
+}
+.logo {
+    display: block;
+    margin: 0 auto 30px; /* Centraliza a imagem */
+    width: 150px; /* Ajuste o tamanho da logo conforme necessário */
+}
+
+.login-container {
+    text-align: center;
+    margin-top: 100px;
+    background-color: #282828;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.login-container label {
+  color: #fff;
+  font-size: 20px;
+}
+.login-container input{
+  padding: 5px 10px;
+  margin: 5px 10px;
+}
+
+.login-container h3 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #fff;
+    font-size: 40px;
+}
+.login-container a{
+    color: #E79E2D;
+    text-decoration: none;
+}
+
+.btn-custom {
+    background-color: #738ddf;
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+    border: none;
+    margin-top: 10px;
+    padding: 5px 10px;
+    font-size: 22px;
+}
+
+.btn-custom:hover {
+    background-color: #45a049;
+}
+
+.form-control {
+    border-radius: 10px;
+}
+
+.footer {
+    text-align: center;
+    margin-top: 20px;
+    color: #fff;
+}
+

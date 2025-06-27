@@ -1,0 +1,172 @@
+/* Public CSS for Dashboard */
+
+/* Tamanho e disposição do corpo */
+body {
+    background-color: #f8f9fa;
+}
+.navbar .nav-item span {
+    font-size: 23px;
+    margin-right: 20px;
+}
+
+/* Container do dashboard */
+.dashboard-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding-top: 20px;
+}
+
+/* Estilo para os cards */
+.card {
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+/* Cabeçalho dos cards */
+.card-title {
+    font-weight: bold;
+    color: #4CAF50;
+}
+
+/* Botões do card */
+.btn-sm {
+    padding: 6px 12px;
+    font-size: 0.875rem;
+}
+
+/* Estilo para o modal */
+.modal-content {
+    border-radius: 10px;
+}
+
+.modal-header {
+    background-color: #f8f9fa;
+}
+
+.modal-footer button {
+    border-radius: 5px;
+}
+
+/* Estilo para a lista das entidades */
+.ac-list, .ac-n2-list, .ar-list {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+/* Estilo das colunas do Dashboard */
+.ac-container, .ac-n2-container, .ar-container {
+    flex: 1;
+    min-width: 300px;
+}
+
+/* Estilo dos cards com botões e conteúdo */
+.card-body {
+    padding: 20px;
+}
+
+/* Estilo do botão de expandir */
+.expand-btn {
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 5px;
+    padding: 5px 10px;
+    text-decoration: none;
+}
+
+.expand-btn:hover {
+    background-color: #45a049;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    margin-top: 30px;
+    color: #6c757d;
+}
+
+/* Estilo do link do Cadastro e Login */
+a {
+    text-decoration: none;
+}
+
+/* Container para o Formulário de Cadastro e Edição */
+.form-container {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    max-width: 600px;
+    margin: 50px auto;
+}
+
+/* Título do Formulário */
+.form-container h2 {
+    text-align: center;
+    color: #4CAF50;
+    margin-bottom: 30px;
+}
+
+/* Estilo dos Campos do Formulário */
+.form-control {
+    border-radius: 10px;
+    padding: 10px;
+}
+
+/* Estilo dos Botões */
+.btn-custom {
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+    padding: 10px 20px;
+    width: 100%;
+}
+
+.btn-custom:hover {
+    background-color: #45a049;
+}
+
+/* Botão de Voltar */
+.btn-secondary {
+    background-color: #6c757d;
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+    padding: 10px 20px;
+    width: 100%;
+}
+
+.btn-secondary:hover {
+    background-color: #5a636a;
+}
+
+/* Margem para os campos do formulário */
+.mb-3 {
+    margin-bottom: 1.5rem;
+}
+
+/* Rodapé da Página */
+.footer {
+    text-align: center;
+    margin-top: 30px;
+    color: #6c757d;
+}
+
+/* Estilos para a Validação de Erros */
+.invalid-feedback {
+    display: block;
+    color: #dc3545;
+    font-size: 0.875em;
+    margin-top: 5px;
+}
+
+/* Ajuste para o formulário em telas menores */
+@media (max-width: 768px) {
+    .form-container {
+        padding: 20px;
+        width: 90%;
+    }
+}
