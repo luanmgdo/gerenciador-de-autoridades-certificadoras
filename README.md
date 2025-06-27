@@ -17,7 +17,7 @@ Clone o repositório para o seu ambiente local:
 
 ```bash
 git clone https://github.com/luanmgdo/gerenciador-de-autoridades-certificadoras.git
-cd nome-do-repositorio
+cd gerenciador-de-autoridades-certificadoras\
 ```
 
 ### 2. **Instalar as Dependências**
