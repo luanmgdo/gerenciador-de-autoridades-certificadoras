@@ -1,5 +1,5 @@
 
-# Laravel QR Code Application
+# Bem-vindo ao meu Desafio Técnico – Desenvolvedor PHP
 
 Este sistema foi desenvolvido como um desafio técnico para a GestaOnline para a vaga de Desenvolvedor PHP
 
@@ -58,15 +58,7 @@ Para criar as tabelas no banco de dados, execute as migrações:
 php artisan migrate
 ```
 
-### 6. **Instalar o Pacote QR Code**
-
-A aplicação utiliza a biblioteca **`chillerlan/php-qrcode`** para gerar QR Codes. O pacote já deve estar instalado, mas caso não tenha, execute o comando:
-
-```bash
-composer require chillerlan/php-qrcode
-```
-
-### 7. **Executar o Servidor de Desenvolvimento**
+### 6. **Executar o Servidor de Desenvolvimento**
 
 Por fim, inicie o servidor de desenvolvimento do Laravel:
 
@@ -76,7 +68,7 @@ php artisan serve
 
 O servidor estará rodando em **`http://127.0.0.1:8000`**.
 
-### 8. **Acessando a Aplicação**
+### 7. **Acessando a Aplicação**
 
 Agora, você pode acessar a aplicação no seu navegador:
 
